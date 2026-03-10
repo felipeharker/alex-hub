@@ -1,13 +1,18 @@
-# EXISTING FILES FOR DEV REF
 
-C:\Users\fharker\Documents\GitHub-Local\alex-hub\standard-files\ref
+# DEV REFERENCE FILES
 
-# POTENTIALLY UNUSED DIRECTORIES
+standard-files/ref/
 
-C:\Users\fharker\Documents\GitHub-Local\alex-hub\working-standards\render-configs\day
-C:\Users\fharker\Documents\GitHub-Local\alex-hub\working-standards\render-configs\night
+# WORKING RENDER CONFIGS (TEMP)
 
-# TESTING OUTPUTS FOR RENDER SETTINGS, NOT NEEDED IN REPO
+working-standards/render-configs/day/
+working-standards/render-configs/night/
 
-C:\Users\fharker\Documents\GitHub-Local\alex-hub\working-standards\render-outputs
+# TEST RENDER OUTPUTS
+
+working-standards/render-outputs/
+
+# LARGE CORELDRAW TEMPLATE
+
 working-standards/ref/sign-package-temp.cdr
+working-standards/a_ref/sign-package-temp.cdr
