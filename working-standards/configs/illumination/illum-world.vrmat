@@ -1,0 +1,129 @@
+<vrmat>
+ <Asset renderer="vray" url="/illum-world" type="light" layout="">
+  <plugin>
+   <vrayplugin name="MayaLightDirect" type="light" version="19">
+    <parameters>
+     <parameter handler="default" label="swatch_type" name="swatch_type" listType="none" type="string" isUserData="1">
+      <value>direct</value>
+     </parameter>
+     <parameter handler="default" label="transform" name="transform" listType="none" type="transform">
+      <value>
+       <vector>
+        <x>1</x>
+        <y>0</y>
+        <z>0</z>
+       </vector>
+       <vector>
+        <x>0</x>
+        <y>1</y>
+        <z>0</z>
+       </vector>
+       <vector>
+        <x>0</x>
+        <y>0</y>
+        <z>1</z>
+       </vector>
+       <vector>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+       </vector>
+      </value>
+     </parameter>
+     <parameter handler="default" label="storeWithIrradianceMap" name="storeWithIrradianceMap" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="specular_contribution" name="specular_contribution" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="shadows" name="shadows" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="shadowSubdivs" name="shadowSubdivs" listType="none" type="integer">
+      <value>8</value>
+     </parameter>
+     <parameter handler="default" label="shadowRadius_tex" name="shadowRadius_tex" listType="none" type="plugin">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="shadowRadiusMode" name="shadowRadiusMode" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="shadowRadius" name="shadowRadius" listType="none" type="float">
+      <value>0.02</value>
+     </parameter>
+     <parameter handler="default" label="shadowColor_tex" name="shadowColor_tex" listType="none" type="plugin">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="shadowColor" name="shadowColor" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="shadowBias" name="shadowBias" listType="none" type="float">
+      <value>0.01</value>
+     </parameter>
+     <parameter handler="default" label="photonSubdivs" name="photonSubdivs" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="nsamples" name="nsamples" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="intensity_tex" name="intensity_tex" listType="none" type="plugin">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="intensity" name="intensity" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="enabled" name="enabled" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="diffuse_contribution" name="diffuse_contribution" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="color_tex" name="color_tex" listType="none" type="plugin">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="color" name="color" listType="none" type="color">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="channels_specular" name="channels_specular" listType="plugin" type="list">
+      <value>
+       <list/>
+      </value>
+     </parameter>
+     <parameter handler="default" label="channels_raw" name="channels_raw" listType="plugin" type="list">
+      <value>
+       <list/>
+      </value>
+     </parameter>
+     <parameter handler="default" label="channels_diffuse" name="channels_diffuse" listType="plugin" type="list">
+      <value>
+       <list/>
+      </value>
+     </parameter>
+     <parameter handler="default" label="channels" name="channels" listType="plugin" type="list">
+      <value>
+       <list/>
+      </value>
+     </parameter>
+     <parameter handler="default" label="causticSubdivs" name="causticSubdivs" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="affectSpecular" name="affectSpecular" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="affectDiffuse" name="affectDiffuse" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+    </parameters>
+   </vrayplugin>
+  </plugin>
+  <preview>null</preview>
+ </Asset>
+</vrmat>
